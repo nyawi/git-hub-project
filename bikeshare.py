@@ -6,9 +6,11 @@ chicago = 'Chicago'
 NYC = 'New York City'
 washington = 'Washington'
 
+```
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+```
 days_in_week = [ 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday' ]
 months_in_year = [ 'January' , 'February' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December' ]
 hours = [ '11 PM' , '10 PM' , '9 PM' , '8 PM' , '7 PM' , '6 PM' , '5 PM' , '4 PM' , '3 PM' , '2 PM' , '1 PM' , '12 PM' , '11 AM' , '10 AM' , '9 AM' , '8 AM', '7 AM' , '6 AM' , '5 AM' , '4 AM' , '3 AM' , '2 AM' , '1 AM' , '12 AM' ]
@@ -34,7 +36,7 @@ start_day_of_week = 'Start Day of Week'
 
 def get_filters(): load_data(city, month, day)
 """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month,... and day to analyze.
 
     Returns:
         (str) city - name of the city to analyze
